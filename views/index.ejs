@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title><%= title %></title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <h1><%= title %></h1>
+  <main>
+    <% for(var i=0; i < db.length; i++) { %>
+    <div>
+    <h3><%= db[i].name %></h3>
+    <p><%= db[i].sell ? "On sale" : "Wanted" %></p>
+    <p><%= `${db[i].price} €` %></p>
+    <img src=<%- `/img/${db[i].photo}` %> width=100 alt="<%= db[i].photo %>">
+    <h5><%= `*${db[i].tags}*` %></h5>
+    <br>
+    </div>
+    <% } %>
+  </main>
+</body>
+
+</html>
