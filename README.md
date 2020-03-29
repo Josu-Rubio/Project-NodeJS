@@ -82,6 +82,7 @@ There are only 4 available tags, as the API has been designed like that.
 - work
 - motor
 - mobile
+
 Those are the tags we will be able to work with.
 
 
