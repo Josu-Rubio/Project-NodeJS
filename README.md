@@ -24,10 +24,11 @@ To run the API from the production enviroment:
 
 To run the API from the development enviroment:
 - npm run dev
+
 It runs on the port 3000
 
 
-On this moment, the API is fully installed and the data from the database can ve observed on localhost:3000
+On this moment, the API is fully installed and the data from the database can be observed on localhost:3000
 
 # API use
 
